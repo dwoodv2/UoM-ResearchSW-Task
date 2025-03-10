@@ -2,8 +2,6 @@ import pytest
 from fruit_lookup_dwoodv2.models.fruit import Fruit
 from fruit_lookup_dwoodv2.utils import FruitNotFoundException
 from fruit_lookup_dwoodv2.utils import print_readable
-from inspect import Parameter
-from ast import Param
 class TestLookup:
 
     @pytest.fixture
